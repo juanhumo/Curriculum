@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('../fuentes/Segoe\ UI.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI Bold';
+    src: url('../fuentes/Segoe\ UI\ Bold.ttf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+body{
+    display: flex;
+    background-color:beige;
+    min-height: 100vh;    /*altura min = 100% del dispositivo*/
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 40px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    font-family:'Segoe UI Regular' ;
+}
+
+.left-side{
+    position: relative;
+    padding: 40px;
+    background-color: cornflowerblue;
+}
+
+.right-side{
+    position: relative;
+    padding: 40px;
+    background-color: white;
+}
+
+.profile-img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #aed1e7;
+    overflow: hidden;  /*En caso de que la img se salga de la caja ocultar lo que desborde*/
+    margin: auto;
+}
+.profile-img img{    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.name-left-box{          /*texto oculto en desktop*/
+    display: none;       /*visible en tablety cel*/
+}
+
+.title-right{
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.contact-info{
+    margin-top: 30px;
+}
+
+.contact-info ul{
+    position: relative;  /*why ???*/ 
+}
+
+.contact-info ul li{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 5px 0;
+    justify-content:left;
+    cursor: pointer;
+}
+
+.contact-info .material-icons{
+    margin-right: 10px;
+}
+
+.skills{
+    margin-top: 30px;
+}
+
+.skills li{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 5px 0;
+    align-items: center;
+}
+
+.skill-name{
+    width: 40%;
+}
+
+.barr{
+    position: relative;
+    background-color: darkgrey;
+    width: 60%;
+    height: 10px;
+    border-radius: 50px;
+}
+
+.progress{
+    position: absolute;
+    background-color: blue;
+    height: 100%;
+    border-radius: 50px;
+}
+
+.html{width: 90%;}
+.css{width: 70%;}
+.javascript{width: 50%;}
+.reactjs{width: 40%;}
+
+.languages{
+    margin-top: 30px;
+}
+
+.languages .name-lang{
+    width: 50%;
+}
+
+.languages .stars-container{
+    width:50%;
+}
+
+.stars-container span{
+    font-size: medium;
+}
+
+.languages ul li{
+    position: relative;
+    display: flex;
+    list-style: none;
+    margin: 5px 0; 
+}

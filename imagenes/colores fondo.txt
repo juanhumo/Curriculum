@@ -1,0 +1,22 @@
+https://imagecolorpicker.com/es
+
+
+azul
+hex: #00456f
+rgb: rgba(0,69,111,255)
+
+
+celeste
+hex: #aed1e7
+rgb: rgba(174,209,231,255)
+
+
+celeste sombreado
+hex: #78a7c1
+rgb: rgba(120,167,193,255)
+
+
+
+Celeste imagen a copiar
+hex: #01b2e6
+rgb: rgba(1,178,230,255)
