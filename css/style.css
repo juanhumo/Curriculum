@@ -42,6 +42,7 @@ body{
     position: relative;
     padding: 40px;
     background-color: cornflowerblue;
+    color: white;
 }
 
 .right-side{
@@ -131,23 +132,23 @@ body{
 .javascript{width: 50%;}
 .reactjs{width: 40%;}
 
-.languages .name-lang{
-    width: 50%;
-}
-
-.languages .stars-container{
-    width:50%;
-}
-
-.stars-container span{
-    font-size: medium;
-}
-
-.languages ul li{
+.languages li{
     position: relative;
     display: flex;
     list-style: none;
-    margin: 5px 0; 
+    margin: 5px 0;
+    align-items: center; 
+}
+
+.languages .name-lang{
+    width: 60%;
+}
+
+.languages .stars-container{
+    text-align-last: right;
+    width:100%;
+    font-size: large;
+    color: blue;
 }
 
 .hobbies div{
@@ -157,4 +158,16 @@ body{
 }
 .hobbies span{
     font-size: 50px;
+}
+
+.net-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.net-container img{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    filter: invert();
 }
