@@ -141,7 +141,7 @@ body{
 }
 
 .languages .name-lang{
-    width: 60%;
+    width: 30%;
 }
 
 .languages .stars-container{
@@ -171,3 +171,30 @@ body{
     cursor: pointer;
     filter: invert();
 }
+
+
+
+
+/*Para pantallas de menos de 768 pixeles (celulares)*/
+@media(max-width: 767px){
+
+    .container{
+        margin: 10px;
+        grid-template-columns: 1fr; 
+    }
+    .name-left-box{          /*texto oculto en desktop*/
+        display:contents;       /*visible en tablety cel*/
+        text-align: center;
+    }
+
+    .skills li{
+        flex-direction: column;
+       }
+    .skill-name{
+        width: 100%;
+    }
+    .barr{
+        width: 100%;
+    }
+    
+    
