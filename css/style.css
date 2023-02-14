@@ -72,16 +72,14 @@ body{
     display: none;       /*visible en tablety cel*/
 }
 
-.title-right{
+.title-left{
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-top: 40px;
     text-align: center;
     font-weight: 600;
 }
 
-.contact-info{
-    margin-top: 30px;
-}
 
 .contact-info ul{
     position: relative;  /*why ???*/ 
@@ -100,9 +98,6 @@ body{
     margin-right: 10px;
 }
 
-.skills{
-    margin-top: 30px;
-}
 
 .skills li{
     position: relative;
@@ -136,10 +131,6 @@ body{
 .javascript{width: 50%;}
 .reactjs{width: 40%;}
 
-.languages{
-    margin-top: 30px;
-}
-
 .languages .name-lang{
     width: 50%;
 }
@@ -157,4 +148,13 @@ body{
     display: flex;
     list-style: none;
     margin: 5px 0; 
+}
+
+.hobbies div{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.hobbies span{
+    font-size: 50px;
 }
