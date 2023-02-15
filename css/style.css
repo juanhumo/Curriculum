@@ -45,12 +45,6 @@ body{
     color: white;
 }
 
-.right-side{
-    position: relative;
-    padding: 40px;
-    background-color: white;
-}
-
 .profile-img{
     position: relative;
     width: 200px;
@@ -172,7 +166,65 @@ body{
     filter: invert();
 }
 
+.right-side{
+    position: relative;
+    padding: 40px;
+    background-color: white;
+}
 
+
+.name-right-box{
+    color:#0e3874;
+}
+
+.title-right{
+    color:#0e3874;
+    text-transform: uppercase;
+    margin: 50px 0 20px 0;
+}
+
+.about{
+    margin-top: 100px;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.education{
+    display:flex;
+    text-align: justify;
+    margin-bottom: 12px;
+}
+ .education .date{
+    min-width: 150px;
+ }
+
+ .institution-diploma h4{
+    text-transform: uppercase;
+    color:#2a7da2;
+ }
+ .institution-diploma h6{
+    text-transform: uppercase;
+    color:darkgrey;
+    margin-bottom: 5px;
+ }
+ 
+ .experience{
+    display:flex;
+    text-align: justify;
+    margin-bottom: 12px;
+ }
+ 
+ .date-company{
+    min-width: 150px;
+ }
+
+ .position-information h4{
+    text-transform: uppercase;
+    color:#2a7da2;
+ }
+ .date-company h4:last-child{
+    color:darkgray
+}
 
 
 /*Para pantallas de menos de 768 pixeles (celulares)*/
@@ -195,6 +247,5 @@ body{
     }
     .barr{
         width: 100%;
-    }
-    
-    
+    } 
+}
