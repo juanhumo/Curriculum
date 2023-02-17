@@ -269,4 +269,10 @@ body{
     .experience{
         flex-direction: column;
     }
+    .institution-diploma{
+        margin-bottom: 5px;
+    }
+    .position-information{
+        margin-bottom: 5px;
+    }
 }
