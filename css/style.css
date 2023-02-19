@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+
+/*========================= Fuentes =========================*/
 @font-face {
     font-family: 'Segoe UI Regular';
     src: url('../fuentes/Segoe\ UI.ttf');
@@ -25,6 +27,7 @@
     font-weight: normal;
 }
 
+/*================ Formato del elemento body ================*/
 body{
     display: flex;
     background-color:beige;
@@ -36,6 +39,8 @@ body{
     font-stretch:ultra-expanded; 
 }
 
+
+/*================== Contenedor principal ===================*/
 .container{
     position: relative;
     width: 100%;
@@ -45,27 +50,30 @@ body{
     background-color: white;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    
 }
 
+
+/*================ Contenedor lado izquierdo ================*/
 .left-side{
     padding: 40px;
     background-color: cornflowerblue;
     color: white;
 }
 
+
+/*===================== Imagen de perfil ====================*/
 .profile-img{
-    position: relative;
+    position: relative; /*pos para ser ancestro más cercano posicionado de la img*/
     width: 200px;
     height: 200px;
     border-style: solid;
     border-radius: 50%;
     border-color: #aed1e7;
-    overflow: hidden;  /*En caso de que la img se salga de la caja ocultar lo que desborde*/
+    overflow: hidden;  /*En caso de que img se salga de la caja ocultar lo que desborde*/
     margin: auto;
 }
 .profile-img img{    
-    position: absolute;
+    position: absolute;  /* ahora sus cc se refieren a .profile-img*/
     top: 0;
     left: 0;
     width: 100%;
@@ -73,10 +81,13 @@ body{
     filter: grayscale(100%);
 }
 
-.name-left-box{          /*texto oculto en desktop*/
-    display: none;       /*visible en tablety cel*/
+.name-left-box{          /*Texto oculto en desktop*/
+    display: none;       /*Se hará visible en tablet y cel*/
 }
 
+
+
+/*================= Titulos de la izquierda =================*/
 .title-left{
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -86,6 +97,7 @@ body{
 }
 
 
+/*============== Apartado de infor de contacto ==============*/
 .contact-info ul li{
     display: flex;
     list-style: none;
@@ -99,6 +111,7 @@ body{
 }
 
 
+/*================= Apartado de habilidades =================*/
 .skills li{
     display: flex;
     list-style: none;
@@ -111,7 +124,7 @@ body{
 }
 
 .barr{
-    position: relative;  
+    position: relative;  /*pos para ser ancestro más cercano posicionado de .progress*/
     background-color: darkgrey;
     width: 60%;
     height: 10px;   
@@ -119,7 +132,7 @@ body{
 }
 
 .progress{
-    position: absolute;
+    position: absolute;     /* ahora sus cc se refieren a barr*/
     background-color:white;
     height: 100%;
     border-radius: 50px;
@@ -130,6 +143,8 @@ body{
 .javascript{width: 50%;}
 .reactjs{width: 40%;}
 
+
+/*=================== Apartado de idiomas ===================*/
 .languages li{
     display: flex;
     list-style: none;
@@ -148,6 +163,7 @@ body{
     color: white;
 }
 
+/*=================== Apartado de hobbies ===================*/
 .hobbies div{
     display: flex;
     width: 100%;
@@ -157,6 +173,7 @@ body{
     font-size: 50px;
 }
 
+/*==================== Apartado de redes ====================*/
 .net-container {
     display: flex;
     width: 100%;
@@ -169,6 +186,8 @@ body{
     filter: invert();
 }
 
+
+/*=============== Contenedor del lado derecho ===============*/
 .right-side{
     padding: 40px;
     background-color: white;
@@ -180,18 +199,24 @@ body{
     color:#0e3874;
 }
 
+
+/*=============== Los títulos del lado derecho ==============*/
 .title-right{
     color:#0e3874;
     text-transform: uppercase;
     margin: 50px 0 20px 0;
 }
 
+
+/*================== Seccion de "Sobre mi" ==================*/
 .about{
     margin-top: 100px;
     text-align: justify;
     margin-bottom: 50px;
 }
 
+
+/*=================== Sección de educación ==================*/
 .education{
     display:flex;
     text-align: justify;
@@ -211,7 +236,8 @@ body{
     margin-bottom: 5px;
  }
  
- .experience{
+ /*============== Sección de experiencia laboral =============*/
+  .experience{
     display:flex;
     text-align: justify;
     margin-bottom: 12px;
@@ -229,15 +255,17 @@ body{
     color:darkgray
 }
 
+/*============= Media querys para responsividad =============*/
+/*===========================================================*/
 
-/*Para pantallas de menos de 768 pixeles (celulares)*/
+/*==== Para pantallas de menos de 768 pixeles(celulares) ====*/
 @media(max-width: 767px){
 
     .container{
         margin: 10px;
         grid-template-columns: 1fr; 
     }
-    .name-left-box{          /*texto oculto en desktop*/
+    .name-left-box{             /*texto oculto en desktop*/
         display:contents;       /*visible en tablety cel*/
         text-align: center;
     }
