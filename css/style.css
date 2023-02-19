@@ -49,7 +49,6 @@ body{
 }
 
 .left-side{
-    position: relative;
     padding: 40px;
     background-color: cornflowerblue;
     color: white;
@@ -87,12 +86,7 @@ body{
 }
 
 
-.contact-info ul{
-    position: relative;  /*why ???*/ 
-}
-
 .contact-info ul li{
-    position: relative;
     display: flex;
     list-style: none;
     margin: 5px 0;
@@ -106,7 +100,6 @@ body{
 
 
 .skills li{
-    position: relative;
     display: flex;
     list-style: none;
     margin: 5px 0;
@@ -118,10 +111,10 @@ body{
 }
 
 .barr{
-    position: relative;
+    position: relative;  
     background-color: darkgrey;
     width: 60%;
-    height: 10px;
+    height: 10px;   
     border-radius: 50px;
 }
 
@@ -138,7 +131,6 @@ body{
 .reactjs{width: 40%;}
 
 .languages li{
-    position: relative;
     display: flex;
     list-style: none;
     margin: 5px 0;
@@ -178,7 +170,6 @@ body{
 }
 
 .right-side{
-    position: relative;
     padding: 40px;
     background-color: white;
 }
