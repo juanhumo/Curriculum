@@ -15,7 +15,6 @@ function mostrarOcultarMenu(){
     
     let contIz = document.getElementById("left-side");
     let titulos = document.querySelectorAll("h1.name, h2.title-right, div.institution-diploma h4, div.position-information h4");
-    
     let estilos = document.querySelectorAll("nav p");
 
     for(let x = 0; x <estilos.length; x++){
@@ -25,9 +24,9 @@ function mostrarOcultarMenu(){
             menu_visible = false;
             
             if(x==0){
-                contIz.style.backgroundColor="red"; 
+                contIz.style.backgroundColor="pink"; 
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="red";}
+                    {titulos[y].style.color="pink";}
             }
             if(x==1){
                 contIz.style.backgroundColor="green";
@@ -40,22 +39,16 @@ function mostrarOcultarMenu(){
                     {titulos[y].style.color="orange";}
             }
             if(x==3){
-                contIz.style.backgroundColor="blue";
+                contIz.style.backgroundColor="cornflowerblue";
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="blue";}
+                    {titulos[y].style.color="cornflowerblue";}
             }
             if(x==4){
-                contIz.style.backgroundColor="black";
+                contIz.style.backgroundColor="gray";
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="black";}
+                    {titulos[y].style.color="gray";}
             }
                         
         }
     }
-}
-
-
-
-function cambiarColor(){
-
 }
