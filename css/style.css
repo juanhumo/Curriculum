@@ -142,7 +142,11 @@ header{
     text-align: center;
     font-weight: 600;
 }
-hr{color: white; background-color: white; height: 2px;}
+hr{
+    color: rgba(228, 224, 224, 0.654); 
+    background-color: rgba(228, 224, 224, 0.654); 
+    height: 2px;
+}
 
 /*============== Apartado de infor de contacto ==============*/
 .contact-info ul li{
