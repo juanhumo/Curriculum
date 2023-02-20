@@ -134,15 +134,15 @@ header{
 
 
 
-/*================= Titulos de la izquierda =================*/
+/*========= Titulos de la izquierda y hr separadora =========*/
 .title-left{
     text-transform: uppercase;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 30px;
     text-align: center;
     font-weight: 600;
 }
-
+hr{color: white;}
 
 /*============== Apartado de infor de contacto ==============*/
 .contact-info ul li{
@@ -153,9 +153,9 @@ header{
     cursor: pointer;
 }
 
-.contact-info .material-icons{
-    margin-right: 10px;
-}
+.contact-info .material-icons{margin-right: 10px;}
+
+.contact-info ul li:last-child{margin-bottom: 30px;}
 
 
 /*================= Apartado de habilidades =================*/
@@ -190,6 +190,8 @@ header{
 .javascript{width: 50%;}
 .reactjs{width: 40%;}
 
+div.skills {margin-bottom: 30px;}
+
 
 /*=================== Apartado de idiomas ===================*/
 .languages li{
@@ -210,15 +212,16 @@ header{
     color: white;
 }
 
+div.languages{ margin-bottom: 30px;}
+
 /*=================== Apartado de hobbies ===================*/
 .hobbies div{
     display: flex;
     width: 100%;
     justify-content: space-between;
 }
-.hobbies span{
-    font-size: 50px;
-}
+.hobbies span{ font-size: 50px; }
+
 
 /*==================== Apartado de redes ====================*/
 .net-container {
