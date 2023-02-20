@@ -73,7 +73,7 @@ header{
     background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.529), rgba(255, 255, 0, 0.448), rgba(0, 128, 0, 0.552), rgba(0, 0, 255, 0.386));
     font-size: 30px;
 }
-
+.nav li{margin: 2px;}
 .nav{
     position: fixed;
     display: none;
