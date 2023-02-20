@@ -15,7 +15,7 @@ function mostrarOcultarMenu(){
     
     let contIz = document.getElementById("left-side");
     let titulos = document.querySelectorAll("h1.name, h2.title-right, div.institution-diploma h4, div.position-information h4");
-    let estilos = document.querySelectorAll("nav p");
+    let estilos = document.querySelectorAll("ul li");
 
     for(let x = 0; x <estilos.length; x++){
         estilos[x].onclick = function(){
@@ -24,19 +24,19 @@ function mostrarOcultarMenu(){
             menu_visible = false;
             
             if(x==0){
-                contIz.style.backgroundColor="pink"; 
+                contIz.style.backgroundColor="rgba(219, 165, 173, 0.985)"; 
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="pink";}
+                    {titulos[y].style.color="rgba(219, 165, 173, 0.985";}
             }
             if(x==1){
-                contIz.style.backgroundColor="green";
+                contIz.style.backgroundColor="rgba(7, 145, 7, 0.668)";
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="green";}
+                    {titulos[y].style.color="rgba(7, 145, 7, 0.668)";}
             }
             if(x==2){
-                contIz.style.backgroundColor="orange";
+                contIz.style.backgroundColor="rgba(218, 144, 8, 0.722)";
                 for(let y = 0; y <titulos.length; y++)
-                    {titulos[y].style.color="orange";}
+                    {titulos[y].style.color="rgba(218, 144, 8, 0.722)";}
             }
             if(x==3){
                 contIz.style.backgroundColor="cornflowerblue";

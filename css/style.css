@@ -69,16 +69,38 @@ header{
     padding: 5px;
     z-index: 99; 
 }
-
-nav{
-    position: fixed;
-    display: none;
-    z-index: 50;        /*para superponerse a la img de perfil*/
-    
+.nav-bar span{
+    background-image: linear-gradient(45deg, rgba(255, 0, 0, 0.529), rgba(255, 255, 0, 0.448), rgba(0, 128, 0, 0.552), rgba(0, 0, 255, 0.386));
+    font-size: 30px;
 }
 
-nav p{
-    display: block;
+.nav{
+    position: fixed;
+    display: none;
+    list-style: none;
+    padding: 2px;
+    z-index: 50;        /*para superponerse a la img de perfil*/ 
+    background-color: rgba(58, 48, 48, 0.374);  
+     
+}
+
+.nav div{
+    width: 20px;
+    height: 20px;
+    border: solid 1px;
+}
+
+.nav p{ width:60px; font-weight: 500; font-weight: bold; color:white}
+
+.estilo-1{ background-color: rgba(219, 165, 173, 0.985); }
+.estilo-2{ background-color: rgba(7, 145, 7, 0.668); }
+.estilo-3{ background-color: rgba(218, 144, 8, 0.722); }
+.estilo-4{ background-color: rgba(100, 148, 237, 0.766); }
+.estilo-5{ background-color: gray; }
+
+.nav div, p{
+    display: inline-block;
+    vertical-align:middle;
 }
 
 /*******************************************************************/
