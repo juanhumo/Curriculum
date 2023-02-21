@@ -1,4 +1,4 @@
 # Curriculum
-Ejercicio de curriculum sencillo solo con HTML y CSS
+Curriculum sencillo solo con HTML, CSS y un poco de Javascript
 
 https://juanhumo.github.io/Curriculum/
