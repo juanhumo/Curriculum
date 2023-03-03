@@ -76,9 +76,12 @@ header{
                                     rgba(0, 128, 0, 0.552), 
                                     rgba(0, 0, 255, 0.386));
     font-size: 30px;
-    cursor: pointer;
 }
+
+div.nav-bar{cursor: pointer;}
+
 .nav li{margin: 2px;}
+
 .nav{
     position: fixed;
     display: none;
