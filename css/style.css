@@ -76,6 +76,7 @@ header{
                                     rgba(0, 128, 0, 0.552), 
                                     rgba(0, 0, 255, 0.386));
     font-size: 30px;
+    cursor: pointer;
 }
 .nav li{margin: 2px;}
 .nav{
@@ -91,7 +92,6 @@ header{
     width: 20px;
     height: 20px;
     border: solid 1px;
-    cursor: pointer;
 }
 
 .nav p{ width:60px; font-weight: 500; font-weight: bold; color:white}
