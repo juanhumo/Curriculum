@@ -68,6 +68,7 @@ header{
     position: fixed;
     padding: 5px;
     z-index: 99; 
+    cursor: pointer;
 }
 .nav-bar span{
     background-image: linear-gradient(45deg, 
@@ -78,7 +79,7 @@ header{
     font-size: 30px;
 }
 
-div.nav-bar{cursor: pointer;}
+/*div.nav-bar{cursor: pointer;}*/
 
 .nav li{margin: 2px;}
 
