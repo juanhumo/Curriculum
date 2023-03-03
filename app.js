@@ -15,7 +15,7 @@ function mostrarOcultarMenu(){
     
     let contIz = document.getElementById("left-side");
     let titulos = document.querySelectorAll("h1.name, h2.title-right, div.institution-diploma h4, div.position-information h4");
-    let estilos = document.querySelectorAll("ul li");
+    let estilos = document.querySelectorAll(".nav ul li");
 
     for(let x = 0; x <estilos.length; x++){
         estilos[x].onclick = function(){
