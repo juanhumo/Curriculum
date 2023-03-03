@@ -85,6 +85,7 @@ header{
     padding: 2px;
     z-index: 50;        /*para superponerse a la img de perfil*/ 
     background-color: rgba(58, 48, 48, 0.374);  
+    cursor: pointer;
      
 }
 
@@ -353,4 +354,5 @@ div.languages{ margin-bottom: 30px;}
     .position-information{
         margin-bottom: 5px;
     }
+    .nav div, p{cursor: auto;}
 }
