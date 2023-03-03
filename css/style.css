@@ -105,7 +105,7 @@ header{
 .nav div, p{
     display: inline-block;
     vertical-align:middle;
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 
 /*******************************************************************/
